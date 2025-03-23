@@ -198,10 +198,12 @@ footer {
   display: flex;
   gap: 25px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer-column {
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 0;
   color: #888;
   padding: 20px;
 }
